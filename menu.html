@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+
+        body{
+           background-color: #fbd9ca;
+        }
+
+
+        .category{
+            width: 100%;
+            display: flex;
+            margin-bottom: 50px;
+            justify-content: center;
+        }
+        
+        .category .list-items{
+            width: 90%;
+            position: relative;
+            margin-top: 70px;
+        }
+        
+        .category .list-items h3{
+            font-size: 40px;
+            font-weight: 600;
+            font-family: sans-serif;
+            margin-bottom: 70px;
+        }
+        
+        .category .list-items .card-list{
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+        }
+        
+        .category .card-list .cards{
+            width: 200px;
+            height: auto;
+            display: block;
+            padding: 10px;
+            outline: 2px solid #faad96 ;
+            border-radius: 10px;
+            position: relative;
+            background: #ffffff;
+            margin-bottom: 100px;
+        }
+        
+        .category .card-list .cards img{
+            width: 100px;
+            height: auto;
+            bottom: 170px;
+            left: 50px;
+            object-fit: cover;
+            object-position: center;
+            background-repeat: no-repeat;
+            box-shadow: 0 20px 20px #faad96;
+            border-radius: 45%;
+            position: absolute;
+        }
+        
+        .category .card-list .cards .food-title{
+            padding: 30px 0 10px;
+        }
+        
+        .category .card-list .cards .food-title h1{
+            text-align: center;
+            font-weight: bold;
+            font-size: 20px;
+            font-family: sans-serif;
+        }
+            
+        .category .cards .desc-food p{
+            font-family: sans-serif;
+            font-size: 13px;
+            font-weight: 550;
+            text-align: center;
+            margin-bottom: 18px;
+        }
+        
+        .category .cards .price{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .category .cards .price span{
+            font-size: 20px;
+            font-family: sans-serif;
+            font-weight: 900;
+        }
+        
+        .category .cards .price span .plus-icon{
+            color: #ff511c;
+            font-size: 30px;
+            cursor: pointer;
+        }
+        
+
+
+    </style>
+<body>
+
+
+    <header >
+
+        <nav class="menubar">
+
+        </nav>
+
+    </header>
+
+
+
+    <section class="category">
+        <div class="list-items">
+            <h3>Popular Dishes</h3>
+            <div class="card-list">
+                <div class="cards">
+                    <img src="image4.png" alt="">
+                    <div class="food-title">
+                        <h1>Veg Burger</h1>
+                    </div>
+                    <div class="desc-food">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                    </div>
+                    <div class="price">
+                        <span>99 Rs </span> <span><i class='bx bxs-plus-circle plus-icon'></i></span>
+                    </div>
+                </div>
+                <div class="cards">
+
+                    <img src="image2.png" alt="">
+                    <div class="food-title">
+                        <h1>Egg Paneer Salad</h1>
+                    </div>
+                    <div class="desc-food">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                    </div>
+                    <div class="price">
+                        <span>149 Rs </span> <span><i class='bx bxs-plus-circle plus-icon'></i></span>
+                    </div>
+                </div>
+
+                <div class="cards">
+
+                    <img src="image2.png" alt="">
+                    <div class="food-title">
+                        <h1>Egg Paneer Salad</h1>
+                    </div>
+                    <div class="desc-food">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                    </div>
+                    <div class="price">
+                        <span>149 Rs </span> <span><i class='bx bxs-plus-circle plus-icon'></i></span>
+                    </div>
+                </div>
+
+                <div class="cards">
+                    <img src="image3.png" alt="">
+                    <div class="food-title">
+                        <h1>Dosa</h1>
+                    </div>
+                    <div class="desc-food">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                    </div>
+                    <div class="price">
+                        <span>179 Rs </span> <span><i class='bx bxs-plus-circle plus-icon'></i></span>
+                    </div>
+                </div>
+
+                <div class="cards">
+                    <img src="image3.png" alt="">
+                    <div class="food-title">
+                        <h1>Dosa</h1>
+                    </div>
+                    <div class="desc-food">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                    </div>
+                    <div class="price">
+                        <span>179 Rs </span> <span><i class='bx bxs-plus-circle plus-icon'></i></span>
+                    </div>
+                </div>
+
+                <div class="cards">
+                    <img src="image3.png" alt="">
+                    <div class="food-title">
+                        <h1>Dosa</h1>
+                    </div>
+                    <div class="desc-food">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                    </div>
+                    <div class="price">
+                        <span>179 Rs </span> <span><i class='bx bxs-plus-circle plus-icon'></i></span>
+                    </div>
+                </div>
+
+                <div class="cards">
+                    <img src="image3.png" alt="">
+                    <div class="food-title">
+                        <h1>Dosa</h1>
+                    </div>
+                    <div class="desc-food">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                    </div>
+                    <div class="price">
+                        <span>179 Rs </span> <span><i class='bx bxs-plus-circle plus-icon'></i></span>
+                    </div>
+                </div>
+
+                <div class="cards">
+                    <img src="image3.png" alt="">
+                    <div class="food-title">
+                        <h1>Dosa</h1>
+                    </div>
+                    <div class="desc-food">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                    </div>
+                    <div class="price">
+                        <span>179 Rs </span> <span><i class='bx bxs-plus-circle plus-icon'></i></span>
+                    </div>
+                </div>
+
+                <div class="cards">
+                    <img src="image3.png" alt="">
+                    <div class="food-title">
+                        <h1>Dosa</h1>
+                    </div>
+                    <div class="desc-food">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                    </div>
+                    <div class="price">
+                        <span>179 Rs </span> <span><i class='bx bxs-plus-circle plus-icon'></i></span>
+                    </div>
+                </div>
+
+                <div class="cards">
+                    <img src="image3.png" alt="">
+                    <div class="food-title">
+                        <h1>Dosa</h1>
+                    </div>
+                    <div class="desc-food">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                    </div>
+                    <div class="price">
+                        <span>179 Rs </span> <span><i class='bx bxs-plus-circle plus-icon'></i></span>
+                    </div>
+                </div>
+
+                <div class="cards">
+                    <img src="image3.png" alt="">
+                    <div class="food-title">
+                        <h1>Pizza</h1>
+                    </div>
+                    <div class="desc-food">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                    </div>
+                    <div class="price">
+                        <span>179 Rs </span> <span><i class='bx bxs-plus-circle plus-icon'></i></span>
+                    </div>
+                </div>
+                <div class="cards">
+                    <img src="image3.png" alt="">
+                    <div class="food-title">
+                        <h1>Pasta</h1>
+                    </div>
+                    <div class="desc-food">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                    </div>
+                    <div class="price">
+                        <span>179 Rs </span> <span><i class='bx bxs-plus-circle plus-icon'></i></span>
+                    </div>
+                </div>
+                <div class="cards">
+                    <img src="image3.png" alt="">
+                    <div class="food-title">
+                        <h1>Dosa</h1>
+                    </div>
+                    <div class="desc-food">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                    </div>
+                    <div class="price">
+                        <span>179 Rs </span> <span><i class='bx bxs-plus-circle plus-icon'></i></span>
+                    </div>
+                </div>
+
+                <div class="cards">
+                    <img src="image3.png" alt="">
+                    <div class="food-title">
+                        <h1>Dosa</h1>
+                    </div>
+                    <div class="desc-food">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                    </div>
+                    <div class="price">
+                        <span>179 Rs </span> <span><i class='bx bxs-plus-circle plus-icon'></i></span>
+                    </div>
+                </div>
+
+                <div class="cards">
+                    <img src="image3.png" alt="">
+                    <div class="food-title">
+                        <h1>Dosa</h1>
+                    </div>
+                    <div class="desc-food">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                    </div>
+                    <div class="price">
+                        <span>179 Rs </span> <span><i class='bx bxs-plus-circle plus-icon'></i></span>
+                    </div>
+                </div>
+
+                <div class="cards">
+                    <img src="image3.png" alt="">
+                    <div class="food-title">
+                        <h1>Dosa</h1>
+                    </div>
+                    <div class="desc-food">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                    </div>
+                    <div class="price">
+                        <span>179 Rs </span> <span><i class='bx bxs-plus-circle plus-icon'></i></span>
+                    </div>
+                </div>
+            </div> 
+        </div>
+    </section>
+       
+</body>
+</html>
